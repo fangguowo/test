@@ -18,11 +18,16 @@ public class ProxyUtil {
                         if (method.getName().equals("sing")){
                             System.out.println("准备话筒，收钱吗20万");
                             return method.invoke(bigStar,args);
-                        }else if (method.getName().equals("dance")){
+                        }else if (method.getName().equals("dance")) {
                             System.out.println("准备场地，收钱1000万");
-                            return method.invoke(bigStar,args);
+                            return method.invoke(bigStar, args);
+
+
                         }
                             return method.invoke(bigStar,args);
+
+
+
 
                     }
                 });
