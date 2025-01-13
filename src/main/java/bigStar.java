@@ -12,7 +12,6 @@ public class bigStar implements star{
         this.name = name;
     }
     public String sing(String name){
-        System.out.println(this.name+"唱歌"+name);
         return "谢谢！谢谢";
     }
 
