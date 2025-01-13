@@ -22,7 +22,7 @@ public class ProxyUtil {
                             System.out.println("准备场地，收钱1000万");
                             return method.invoke(bigStar,args);
                         }
-                            return method.invoke(bigStar,args);
+                            return method.invoke(bigStar,args)
 
                     }
                 });
